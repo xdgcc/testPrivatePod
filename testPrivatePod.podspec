@@ -8,9 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'testPrivatePod'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = '创建使用自己的私有pod'
-  s.description      = '创建使用自己的私有pod，这里的描述要比上面的summary长，否则会有warning（真奇葩'
+  s.description      = '创建使用自己的私有pod，这里的描述要比上面的summary长，否则会有warning'
   s.homepage         = 'https://github.com/xdgcc/testPrivatePod'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'GAOCE' => 'xdgcc1994@gmail.com' }

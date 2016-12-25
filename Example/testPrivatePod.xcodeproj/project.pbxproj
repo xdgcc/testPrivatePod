@@ -56,15 +56,15 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		7F0B2DB29F8A4D8C5BE853C9 /* Pods-testPrivatePod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testPrivatePod_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-testPrivatePod_Tests/Pods-testPrivatePod_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		81B1C48BB4670D09D006B631 /* testPrivatePod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = testPrivatePod.podspec; path = ../testPrivatePod.podspec; sourceTree = "<group>"; };
+		81B1C48BB4670D09D006B631 /* testPrivatePod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = testPrivatePod.podspec; path = ../testPrivatePod.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		899E3460E9CF70305BAA82E9 /* Pods-testPrivatePod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testPrivatePod_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testPrivatePod_Example/Pods-testPrivatePod_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8D488C0134575CF49AF4B10B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8D488C0134575CF49AF4B10B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A8FF2AE8FAA07C9D8158F294 /* Pods-testPrivatePod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testPrivatePod_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-testPrivatePod_Example/Pods-testPrivatePod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AFAF9BB4924E8983D0158393 /* Pods-testPrivatePod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testPrivatePod_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testPrivatePod_Tests/Pods-testPrivatePod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B17418B195EB453A2706ABE9 /* Pods_testPrivatePod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testPrivatePod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D779007BF4F49821721C2B4B /* Pods_testPrivatePod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testPrivatePod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEBB96B7D9D264DA1F4029BB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DEBB96B7D9D264DA1F4029BB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = GAOCE;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = N7D433SX83;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -513,6 +516,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = N7D433SX83;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "testPrivatePod/testPrivatePod-Prefix.pch";
 				INFOPLIST_FILE = "testPrivatePod/testPrivatePod-Info.plist";
@@ -529,6 +533,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = N7D433SX83;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "testPrivatePod/testPrivatePod-Prefix.pch";
 				INFOPLIST_FILE = "testPrivatePod/testPrivatePod-Info.plist";
